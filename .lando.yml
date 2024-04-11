@@ -1,0 +1,11 @@
+name: site-name
+recipe: pantheon
+config:
+  framework: drupal10
+  site: site-name
+  id: site-uuid
+tooling:
+  drush:
+    service: appserver
+    env:
+      DRUSH_OPTIONS_URI: "site-url"
