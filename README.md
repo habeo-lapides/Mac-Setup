@@ -23,3 +23,9 @@
 10. Pulsar Editor: https://pulsar-edit.dev/
 11. Rectangle: https://rectangleapp.com/
 12. Clippy: https://clipy-app.com/
+13. Github Connection:
+    1. ssh-keygen -t ed25519 -C "user@domain.tld"
+    2. Repo -> Settings -> Deploy keys: ~/.ssh/id_ed25519.pub
+    3. if deploy permission error:
+        1. remote rm origin
+        2. remote add origin git@github.com:USER/REPO.git
