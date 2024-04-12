@@ -50,4 +50,6 @@
 1. Zed Editor: https://zed.dev/
 2. DDEV: https://ddev.com/
 3. Lagoon: https://lagoon.sh/
-
+    1. Amazee: https://www.amazee.io/local-development-with-ddev-and-lagoon
+4. Rancher: https://rancherdesktop.io/
+    1. Skills Upgrade Review: https://talkingdrupal.com/skills-upgrade-2
