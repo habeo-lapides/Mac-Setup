@@ -16,7 +16,7 @@
 3. Oh My Z: https://ohmyz.sh/
 4. Homebrew: https://brew.sh/
 5. PHP: brew install php@8.2
-6. XDebug: arch -x86_64 sudo pecl install xdebug
+6. XDebug: arch -arm64 sudo pecl install xdebug
 7. Composer: brew install composer
 8. MySQL: brew install mysql
 9. Lando: https://docs.lando.dev/
@@ -29,3 +29,10 @@
     3. if deploy permission error:
         1. remote rm origin
         2. remote add origin git@github.com:USER/REPO.git
+14. Pantheon
+    1. Terminus: brew install pantheon-systems/external/terminus
+    2. SSH Key: https://dashboard.pantheon.io/personal-settings/ssh-keys
+    3. Machine Token: https://dashboard.pantheon.io/auth/callback/create-machine-token
+    4. RSYNC plugin: terminus self:plugin:install terminus-rsync-plugin
+    5. Secrets plugin: terminus self:plugin:install pantheon-systems/terminus-secrets-plugin
+    6. New Relic plugin: terminus self:plugin:install pantheon-systems/terminus-newrelic-data-plugin
