@@ -4,6 +4,7 @@
 
 1. Warp Terminal: https://www.warp.dev/
     1. Comic Mono Font: https://dtinth.github.io/comic-mono-font/
+    2. reboot terminal for font access
 2. VS Code Editor: https://code.visualstudio.com/
     1. Better Comments
     2. Color Picker
@@ -15,7 +16,7 @@
     8. Drupal
 3. Oh My Z: https://ohmyz.sh/
 4. Homebrew: https://brew.sh/
-5. PHP: brew install php@8.2
+5. PHP: brew install php@8.3
 6. XDebug: arch -arm64 sudo pecl install xdebug
 7. Composer: brew install composer
 8. MySQL: brew install mysql
@@ -23,13 +24,15 @@
 10. Pulsar Editor: https://pulsar-edit.dev/
 11. Rectangle: https://rectangleapp.com/
 12. Clippy: https://clipy-app.com/
-13. Github Connection:
+13. Obsidian: https://obsidian.md/
+14. Github Connection:
     1. ssh-keygen -t ed25519 -C "user@domain.tld"
     2. Repo -> Settings -> Deploy keys: ~/.ssh/id_ed25519.pub
     3. if deploy permission error:
         1. remote rm origin
         2. remote add origin git@github.com:USER/REPO.git
-14. Pantheon
+15. Commander One SFTP: https://ftp-mac.com/sftp-client-mac.html
+16. Pantheon
     1. Terminus: brew install pantheon-systems/external/terminus
     2. SSH Key: https://dashboard.pantheon.io/personal-settings/ssh-keys
     3. Machine Token: https://dashboard.pantheon.io/auth/callback/create-machine-token
