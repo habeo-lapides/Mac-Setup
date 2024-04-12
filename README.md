@@ -49,7 +49,5 @@
 
 1. Zed Editor: https://zed.dev/
 2. DDEV: https://ddev.com/
-3. Lagoon: https://lagoon.sh/
-    1. Setup: https://docs.lagoon.sh/applications/drupal/step-by-step-getting-drupal-ready-to-run-on-lagoon/
-4. Rancher: https://rancherdesktop.io/
+3. Rancher: https://rancherdesktop.io/
     1. Skills Upgrade Review: https://talkingdrupal.com/skills-upgrade-2
