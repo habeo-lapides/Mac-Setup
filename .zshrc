@@ -9,10 +9,12 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
-
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
+# python
+alias p3="python3"
 
 # gitlog ( git lg )
 alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"

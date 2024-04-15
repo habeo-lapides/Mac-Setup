@@ -39,7 +39,8 @@
     4. RSYNC plugin: terminus self:plugin:install terminus-rsync-plugin
     5. Secrets plugin: terminus self:plugin:install pantheon-systems/terminus-secrets-plugin
     6. New Relic plugin: terminus self:plugin:install pantheon-systems/terminus-newrelic-data-plugin
-
+17. Python: https://www.python.org/downloads/macos/
+    
 ## AI Implementation
 1. aicommits: https://github.com/Nutlope/aicommits
     1. ln -s /usr/local/bin/aic aicommits
