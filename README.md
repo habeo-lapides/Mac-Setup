@@ -35,12 +35,12 @@
         2. remote add origin git@github.com:USER/REPO.git
 15. Commander One SFTP: https://ftp-mac.com/sftp-client-mac.html
 16. Pantheon
-    1. Terminus: brew install pantheon-systems/external/terminus
-    2. SSH Key: https://dashboard.pantheon.io/personal-settings/ssh-keys
-    3. Machine Token: https://dashboard.pantheon.io/auth/callback/create-machine-token
-    4. RSYNC plugin: terminus self:plugin:install terminus-rsync-plugin
-    5. Secrets plugin: terminus self:plugin:install pantheon-systems/terminus-secrets-plugin
-    6. New Relic plugin: terminus self:plugin:install pantheon-systems/terminus-newrelic-data-plugin
+    1. SSH Key: https://dashboard.pantheon.io/personal-settings/ssh-keys
+    2. Machine Token: https://dashboard.pantheon.io/auth/callback/create-machine-token
+    3. Terminus: brew install pantheon-systems/external/terminus
+        1. RSYNC plugin: terminus self:plugin:install terminus-rsync-plugin
+        2. Secrets plugin: terminus self:plugin:install pantheon-systems/terminus-secrets-plugin
+        3. New Relic plugin: terminus self:plugin:install pantheon-systems/terminus-newrelic-data-plugin
 17. Python: https://www.python.org/downloads/macos/
 
 ## AI Implementation
