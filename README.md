@@ -17,6 +17,8 @@
 3. Oh My Z: https://ohmyz.sh/
 4. Homebrew: https://brew.sh/
 5. PHP: brew install php@8.3
+    1. composer global require squizlabs/php_codesniffer
+    2. composer global require drupal/coder
 6. XDebug: arch -arm64 sudo pecl install xdebug
 7. Composer: brew install composer
 8. MySQL: brew install mysql
@@ -40,7 +42,7 @@
     5. Secrets plugin: terminus self:plugin:install pantheon-systems/terminus-secrets-plugin
     6. New Relic plugin: terminus self:plugin:install pantheon-systems/terminus-newrelic-data-plugin
 17. Python: https://www.python.org/downloads/macos/
-    
+
 ## AI Implementation
 1. aicommits: https://github.com/Nutlope/aicommits
     1. ln -s /usr/local/bin/aic aicommits
