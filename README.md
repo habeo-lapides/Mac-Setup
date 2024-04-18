@@ -42,6 +42,8 @@
         2. Secrets plugin: terminus self:plugin:install pantheon-systems/terminus-secrets-plugin
         3. New Relic plugin: terminus self:plugin:install pantheon-systems/terminus-newrelic-data-plugin
 17. Python: https://www.python.org/downloads/macos/
+18. Silver Searcher: brew install the_silver_searcher
+
 
 ## AI Implementation
 1. aicommits: https://github.com/Nutlope/aicommits
