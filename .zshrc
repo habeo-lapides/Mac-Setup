@@ -13,6 +13,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# find . -name "<ARG>" -print
+alias fnd='find . -name "$1" -print'
+
 # python
 alias p3="python3"
 
