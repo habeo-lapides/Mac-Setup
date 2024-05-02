@@ -35,3 +35,13 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 alias drupalcs="phpcs --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md,yml'"
 alias drupalcsp="phpcs --standard=DrupalPractice --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md,yml'"
 alias drupalcbf="phpcbf --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md,yml'"
+
+# find . -name "<ARG>" -print
+function fnd() {
+    find . -name "$1" -print 
+}
+
+# ag -Ql "<ARG>" 
+function fnt() {
+    ag -Ql "$1" 
+}
