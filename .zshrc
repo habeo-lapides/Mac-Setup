@@ -22,6 +22,9 @@ alias p3="python3"
 # ddev drush
 alias ddr="ddev drush"
 
+# prune all docker images NOW
+alias prune="docker system prune --all --force"
+
 # gitlog ( git lg )
 alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
