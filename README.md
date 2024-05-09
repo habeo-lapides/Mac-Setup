@@ -43,6 +43,7 @@
         3. New Relic plugin: terminus self:plugin:install pantheon-systems/terminus-newrelic-data-plugin
 17. Python: https://www.python.org/downloads/macos/
 18. Silver Searcher: brew install the_silver_searcher
+19. DDEV Sequel Ace: brew install --cask sequel-ace
 
 
 ## AI Implementation
