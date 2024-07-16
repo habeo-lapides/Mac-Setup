@@ -48,3 +48,8 @@ function fnd() {
 function fnt() {
     ag -Ql "$1" 
 }
+
+# go to git root directory
+function gr() {
+    cd "$(git rev-parse --show-toplevel)" || return
+}
