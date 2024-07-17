@@ -46,6 +46,7 @@
 19. DDEV Sequel Ace: brew install --cask sequel-ace (not recommended ... issue #152)
 20. DDEV PHP My Admin ddev get ddev/ddev-phpmyadmin
 21. brew install gh / gh auth login
+22. ddev get ddev/ddev-drupal-contrib  / https://github.com/ddev/ddev-drupal-contrib
 
 ## AI Implementation
 1. aicommits: https://github.com/Nutlope/aicommits
