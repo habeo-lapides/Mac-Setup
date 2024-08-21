@@ -14,11 +14,25 @@
     6. PHP
     7. SQLTools
     8. Drupal
+    9. Composer
+    10. Dev Containers
+    11. Drupal
+    12. PHP Intelephense
+    13. PHP Sniffer & Beautifier
+    14. PHPStan
+    15. PHPUnit Test Explorer
+    16. Rainbow CSV
+    17. Remote Explorer
+    18. TODO Hightlight
+    19. Twig Language 2
+    20. vscode-pdf
 3. Oh My Z: https://ohmyz.sh/
 4. Homebrew: https://brew.sh/
 5. PHP: brew install php@8.3
     1. composer global require squizlabs/php_codesniffer
     2. composer global require drupal/coder
+    3. composer require drupal/core-dev
+    4. composer require drush/drush (core-dev should install first)
 6. XDebug: arch -arm64 sudo pecl install xdebug
 7. Composer: brew install composer
 8. MySQL: brew install mysql
