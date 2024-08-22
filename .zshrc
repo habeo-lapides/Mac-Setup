@@ -16,11 +16,8 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# find . -name "<ARG>" -print
-alias fnd='find . -name "$1" -print'
-
 # python
-alias p3="python3"
+alias p="python3"
 
 # ddev drush
 alias ddr="ddev drush"
@@ -36,23 +33,3 @@ export PATH="/Users/eric.michalsen/.lando/bin${PATH+:$PATH}"; #landopath
 
 # Composer
 export PATH="$PATH:$HOME/.composer/vendor/bin"
-
-# PHPCS
-alias drupalcs="phpcs --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md,yml'"
-alias drupalcsp="phpcs --standard=DrupalPractice --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md,yml'"
-alias drupalcbf="phpcbf --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md,yml'"
-
-# find . -name "<ARG>" -print
-function fnd() {
-    find . -name "$1" -print
-}
-
-# ag -Ql "<ARG>"
-function fnt() {
-    ag -Ql "$1"
-}
-
-# go to git root directory
-function gr() {
-    cd "$(git rev-parse --show-toplevel)" || return
-}
