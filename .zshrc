@@ -4,6 +4,9 @@
 # VS Code ( code . )
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
+# Zed Editor (z .)
+alias z="open -a /Applications/Zed.app -n"
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -41,12 +44,12 @@ alias drupalcbf="phpcbf --standard=Drupal --extensions='php,module,inc,install,t
 
 # find . -name "<ARG>" -print
 function fnd() {
-    find . -name "$1" -print 
+    find . -name "$1" -print
 }
 
-# ag -Ql "<ARG>" 
+# ag -Ql "<ARG>"
 function fnt() {
-    ag -Ql "$1" 
+    ag -Ql "$1"
 }
 
 # go to git root directory

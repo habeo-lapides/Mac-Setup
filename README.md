@@ -36,7 +36,7 @@
 6. XDebug: arch -arm64 sudo pecl install xdebug
 7. Composer: brew install composer
 8. MySQL: brew install mysql
-9. Lando: https://docs.lando.dev/
+9. DDEV: DDEV: https://ddev.com/
 10. Pulsar Editor: https://pulsar-edit.dev/
 11. Rectangle: https://rectangleapp.com/
 12. Clippy: https://clipy-app.com/
@@ -61,6 +61,7 @@
 20. DDEV PHP My Admin ddev get ddev/ddev-phpmyadmin
 21. brew install gh / gh auth login
 22. ddev get ddev/ddev-drupal-contrib  / https://github.com/ddev/ddev-drupal-contrib
+23. Zed Editor: https://zed.dev
 
 ## AI Implementation
 1. aicommits: https://github.com/Nutlope/aicommits
@@ -69,7 +70,5 @@
 
 ## Under development / Review
 
-1. Zed Editor: https://zed.dev/
-2. DDEV: https://ddev.com/
-3. Rancher: https://rancherdesktop.io/
+1. Rancher: https://rancherdesktop.io/
     1. Skills Upgrade Review: https://talkingdrupal.com/skills-upgrade-2
