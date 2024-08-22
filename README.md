@@ -13,19 +13,21 @@
     5. Git Graph
     6. PHP
     7. SQLTools
-    8. Drupal
     9. Composer
     10. Dev Containers
     11. Drupal
     12. PHP Intelephense
-    13. PHP Sniffer & Beautifier
-    14. PHPStan
-    15. PHPUnit Test Explorer
-    16. Rainbow CSV
-    17. Remote Explorer
-    18. TODO Hightlight
-    19. Twig Language 2
-    20. vscode-pdf
+    13. PHP Debug
+    14. PHP DocBlocker
+    15. PHP Sniffer & Beautifier
+    16. PHPStan
+    17. PHPUnit Test Explorer
+    18. Rainbow CSV
+    19. Remote Explorer
+    20. TODO Hightlight
+    21. Twig Language 2
+    22. vscode-pdf
+    23. SQLTools
 3. Oh My Z: https://ohmyz.sh/
 4. Homebrew: https://brew.sh/
 5. PHP: brew install php@8.3
@@ -61,7 +63,7 @@
 20. DDEV PHP My Admin ddev get ddev/ddev-phpmyadmin
 21. brew install gh / gh auth login
 22. ddev get ddev/ddev-drupal-contrib  / https://github.com/ddev/ddev-drupal-contrib
-23. Zed Editor: https://zed.dev
+23. Zed Editor: https://zed.dev (text editor)
 
 ## AI Implementation
 1. aicommits: https://github.com/Nutlope/aicommits
